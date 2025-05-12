@@ -33,8 +33,8 @@ class LoginController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function showLoginForm() {
-        $pageTitle = "Admin Login";
-        return view('admin.auth.login', compact('pageTitle'));
+        //$pageTitle = "Admin Login";
+        //return view('admin.auth.login', compact('pageTitle'));
     }
 
     /**
